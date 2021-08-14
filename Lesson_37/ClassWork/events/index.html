@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM, Events</title>
+    <script src="./script.js" defer></script>
+    <style>
+        .wrapper{
+            width: 500px;
+            margin: auto;
+            padding-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <input type="text" id="simple-input">
+        <hr>
+        <form action="#" id = "myForm">
+            <label for="firstName">first name:</label>
+            <input type="text" id = "firstName" name = "firstName">
+            <br>
+            <label for="lastName">last name:</label>
+            <input type="text" id = "lastName" name = "lastName">
+            <!-- <input type="submit" value = "send"> -->
+            <button type = "submit">send</button>
+        </form>
+        <a href="https://www.deepl.com/translator">deeple</a>
+    </div>
+    <div class="container">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>  <!-- 1. onclick delete from dom (not the last one) 
+        2. 5 squares - onclick turn into a circle and back -->
+    </div>
+</body>
+</html>
